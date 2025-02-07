@@ -16,6 +16,12 @@ function square(){
 function squareRoot(){
     display.value=Math.sqrt(parseFloat(display.value))
 }
+function cubeRoot(){
+    display.value = Math.cbrt(parseFloat(display.value));
+}
+function cube(){
+    display.value=Math.pow(parseFloat(display.value),3);
+}
 function calculateResult(){
 
     try{

@@ -4,7 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f4f4f4;
+    background-color: #000000;
 }
 
 .calculator {
@@ -24,8 +24,8 @@ body {
     padding: 10px;
     border: none;
     outline: none;
-    background: #333;
-    color: white;
+    background: #000000;
+    color: rgb(251, 215, 13);
     border-radius: 5px;
     margin-bottom: 10px;
 }
@@ -42,13 +42,13 @@ button {
     border: none;
     cursor: pointer;
     background: #444;
-    color: white;
-    border-radius: 5px;
+    color: rgb(231, 196, 4);
+    border-radius: 50px;
     transition: 0.2s;
 }
 
 button:hover {
-    background: #666;
+    background: 5555#05b2de;
 }
 
 .zero {
